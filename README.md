@@ -1,9 +1,9 @@
-Teste de api em imagem docker
+# Teste de api em imagem docker
 
-Para executar podemos montar a imagem 
+## Para executar podemos montar a imagem 
 
 docker build .
 
-depois executamos a imagem
+## depois executamos a imagem
 
-docker run "iamgem"
+docker run -p 3000:3000 "imagem"
